@@ -1,0 +1,102 @@
+@import 'reset.css';
+/*-------------------Fonts------------*/
+@font-face{
+	font-family: headerFont;
+	src: url("fonts/DancingScript-Regular.otf");
+}
+@font-face{
+	font-family: bodyNorm;
+	src: url("fonts/josefin-sans/JosefinSans-Regular.ttf");
+}
+@font-face{
+	font-family: bodyBold;
+	src: url("fonts/josefin-sans/JosefinSans-Bold.ttf");
+	font-weight: bold;
+}
+@font-face{
+	font-family: bodyItalics;
+	src: url("fonts/josefin-sans/JosefinSans-Italic.ttf");
+}
+/*-------------Font Sizes-----------------*/
+p{	font-size: 18pt;}
+h1{ 
+	font-size: 55pt;
+	font-family: headerFont;
+}
+h2{ font-size: 22pt;}
+h3{ font-size: 20pt;}
+/*------------ Nav--Bar------------*/
+nav{
+	font-size: 14pt;
+	padding: 20px 0;
+}
+nav ul li{
+	list-style: none;
+	display: inline;
+}
+nav ul li{
+	border-right: 3px ridge white;
+	padding: 0 20px 0 20px;
+}
+nav ul li:last-child{
+	border: none;
+}
+/*-----------------Links------------*/
+a:link{
+	color: #e96133;
+}
+a:visited{
+	color: #e96133;
+	/*#5c1f0a;*/
+}
+a:active{
+	/*Show coffee bean or cup*/
+	font-family: headerFont;
+}
+a:hover{
+	color: #672526;
+}
+/*-------------- Header------------*/
+.header{
+	width: 82%;
+	display: inline-block;
+	/*border: 2px solid black;*/
+}
+#big_title{
+	margin-top: 20px;
+}
+.logo{
+	width: 150px;
+	padding-right: 10px;
+	float: left;
+}
+/*-------------------Body------------*/
+body{
+	font-family: bodyNorm;
+	background-color: #552c11;
+	/*background-color: #f2f2f2;*/
+	/*color: #f1e1d1;*/
+	text-align: center;
+}
+#container{
+	background-color: #f1e1d1;
+	color: black;
+	padding: 30px;
+	width: 1200px;
+	margin: 0 auto;
+}
+table{
+	/*border: 1px solid red;*/
+	margin: 20px auto;
+	width: 82%;
+}
+td{
+	border-right: 2px ridge white;
+	padding: 25px;
+	background-color: #43ced1;
+}
+td:last-child{
+	border: none;
+}
+
+
